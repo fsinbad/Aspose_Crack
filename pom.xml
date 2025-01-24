@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>pdf</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-pdf</artifactId>
+        <version>22.7.1</version>
+        <scope>system</scope>
+        <systemPath>${project.basedir}/src/main/resources/lib/aspose-pdf-22.7.1.jar</systemPath>
+    </dependency>
+    <dependency><!--word-->
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-words</artifactId>
+        <scope>system</scope>
+        <version>21.11</version>
+        <classifier>jdk17</classifier>
+        <systemPath>${project.basedir}/src/main/resources/lib/aspose-words-21.11-jdk17.jar</systemPath>
+    </dependency>
+    <dependency><!--excel-->
+        <groupId>com.aspose</groupId>
+        <artifactId>aspose-cells</artifactId>
+        <scope>system</scope>
+        <version>21.8</version>
+        <systemPath>${project.basedir}/src/main/resources/lib/aspose-cells-21.8.jar</systemPath>
+    </dependency>
+    <dependency><!--pptx-->
+        <groupId>com.aspose</groupId>
+        <scope>system</scope>
+        <artifactId>aspose-slides</artifactId>
+        <version>21.11</version>
+        <classifier>jdk16</classifier>
+        <systemPath>${project.basedir}/src/main/resources/lib/aspose-slides-21.11-jdk16.jar</systemPath>
+    </dependency>
+
+
+</dependencies>>
+</project>
